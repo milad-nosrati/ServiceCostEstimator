@@ -1,0 +1,156 @@
+html,
+body {
+  direction: rtl;
+  margin: 0;
+  padding: 0;
+  font-family: ShabnamFD;
+  font-size: 12px;
+  text-align: right;
+  background-color: #f6f5fa;
+  white-space: nowrap;
+  overflow-x: hidden;
+  max-width: 720px;
+  min-height: 750px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+h4 {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+h5 {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+h6 {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.fixboxitem {
+  padding: 0px !important;
+  margin: 0px !important;
+}
+
+.headerRow {
+  background-color: #0d2b52;
+  color: #ffff;
+}
+
+.timeCoustomColor {
+  color: #17a2b8;
+}
+
+.boxItems {
+  border-radius: 10px !important;
+  -webkit-box-shadow: 0 0 7px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 0 7px rgba(0, 0, 0, 0.1);
+}
+
+.boxTime .form-check-label {
+  -webkit-box-shadow: 0 0 7px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 0 7px rgba(0, 0, 0, 0.1);
+  border-radius: 50px !important;
+}
+
+.boxTime .checkBoxAttive {
+  background-color: #17a2b8;
+  color: #ffff;
+}
+
+.inputTime {
+  border: none;
+}
+
+.inputTime:focus {
+  border: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.errorinputTime {
+  color: red;
+}
+
+.boxDateandClock .Iconcalenda {
+  color: #17a2b8;
+}
+
+.boxDateandClock p {
+  margin: 0 auto;
+}
+
+.boxDateandClock::after {
+  content: " ";
+  background-color: #17a2b8;
+  position: absolute;
+  width: 10%;
+  height: 2px;
+  bottom: 0px;
+  right: 43%;
+}
+
+.progressFooter {
+  height: 3px;
+  width: 100%;
+  direction: ltr;
+  background-color: transparent !important;
+  -webkit-box-shadow: 0px -4px 3px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px -4px 3px rgba(0, 0, 0, 0.1);
+}
+
+.dateModal {
+  border-radius: 10px;
+  -webkit-box-shadow: 0 0 7px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 0 7px rgba(0, 0, 0, 0.1);
+}
+
+.dateModal::after {
+  content: " ";
+  background-color: green;
+  position: absolute;
+  height: 5px;
+  width: 5px;
+  border-radius: 50px;
+}
+
+.dateModalactive {
+  background-color: #17a2b8;
+  color: #ffff;
+}
+
+.btnSetClolck input {
+  font-size: 15px;
+  text-align: center;
+}
+
+.btnSetClolck .MuiInput-underline::before {
+  border-bottom: none !important;
+}
+
+.btnSetClolck .MuiInput-underline::after {
+  border-bottom: none !important;
+}
+
+.MuiPaper-elevation24 {
+  direction: ltr;
+}
+
+/*# sourceMappingURL=index.css.map */
